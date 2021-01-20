@@ -5,7 +5,7 @@
 <body>
   <h1>Guess the Number!</h1>
 	<script>
-        let num = Math.floor(Math.random() * 11);
+        let num = Math.floor(Math.random() * 100);
 	
 	//will turn true if right number is given
 	let gotIt = false;
@@ -18,7 +18,7 @@
        		    {//true tell user and break out of loop
             		//bresk out of loop
 			gotIt =true;
-		alert("Congratulations! You guessed the correct number, which was " + num + " and it took you" + numGuesses + " guesses.");
+		alert("Congratulations! You guessed the correct number, which was " + num + " and it took you " + numGuesses + " guesses.");
         	    }
 	   else	    //false tells user to try to guess again
 	   	    {
